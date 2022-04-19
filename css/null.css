@@ -1,0 +1,75 @@
+/* Обнуляющий стиль */
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a {
+	color: inherit;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+
+body,
+html {
+	height: 100%;
+	line-height: 1;
+}
+/* ================================================================ */
+
+.impact__image{
+	min-width: 498px;
+}
+
+.impact__image img{
+	max-width: 100%;
+}
+
+.main__button{
+	padding-top: 50px;
+	text-align: center;
+}
+
+.button__link{
+	font-size: 18px;
+	color: beige;
+	display: inline-block;
+	padding: 20px 60px;
+	border-radius: 5px;
+	background-color: blueviolet;
+}
+.button__link:active{
+	position: relative;
+	bottom: -1px;
+}
+
+.lol{
+	padding-bottom: 200px ;
+}
+
+.button__link:hover{
+	background-color: rgb(247, 108, 108);
+}
